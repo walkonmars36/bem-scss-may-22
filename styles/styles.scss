@@ -1,0 +1,17 @@
+@use "./card";
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(29, 28, 27, 0.539);
+}
+
+img {
+  object-fit: contain;
+}
+
+button {
+  border: none;
+  padding: 1em 1.75em;
+  margin: 1em 0;
+}
