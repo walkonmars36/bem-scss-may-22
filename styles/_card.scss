@@ -1,5 +1,14 @@
+@use "./mixins" as *;
+@use "./components" as *;
+@use "./assets" as *;
+@use "./variables" as *;
+
+body {
+  @include flex-card();
+}
+
 .card {
-  width: 50%;
+  width: 60%;
   background-color: white;
 
   &__img {
@@ -7,18 +16,18 @@
   }
 
   &__main {
-    padding: 1em;
+    padding: 1.5em;
   }
 
-  &__book {
+  &__btn {
     background-color: black;
     color: white;
     border: 1px solid black;
-  }
 
-  &__info {
-    background-color: white;
-    border: 1px solid black;
-    margin-left: 5px;
+    &--info {
+      background-color: white;
+      border: 1px solid black;
+      margin-left: 5px;
+    }
   }
 }

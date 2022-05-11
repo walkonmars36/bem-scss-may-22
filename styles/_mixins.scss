@@ -1,2 +1,6 @@
-@mixin name {
+@mixin flex-card() {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: rgba(29, 28, 27, 0.539);
 }

@@ -1,28 +1,7 @@
-.card {
-  width: 50%;
-  background-color: white;
-}
-.card__img {
-  width: 100%;
-}
-.card__main {
-  padding: 1em;
-}
-.card__book {
-  background-color: black;
-  color: white;
-  border: 1px solid black;
-}
-.card__info {
-  background-color: white;
-  border: 1px solid black;
-  margin-left: 5px;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(29, 28, 27, 0.539);
+button {
+  border: none;
+  padding: 1em 1.75em;
+  margin: 1em 0;
 }
 
 img {
@@ -30,8 +9,36 @@ img {
      object-fit: contain;
 }
 
-button {
-  border: none;
-  padding: 1em 1.75em;
-  margin: 1em 0;
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: rgba(29, 28, 27, 0.539);
+}
+
+.card {
+  width: 60%;
+  background-color: white;
+}
+.card__img {
+  width: 100%;
+}
+.card__main {
+  padding: 1.5em;
+}
+.card__btn {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.card__btn--info {
+  background-color: white;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  padding: 3em;
+  gap: 3rem;
 }/*# sourceMappingURL=styles.css.map */
